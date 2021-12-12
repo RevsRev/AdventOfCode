@@ -1,0 +1,6 @@
+﻿  Day8.cpp
+C:\Users\eddie\Documents\AdventOfCode\AdventOfCode\AdventOfCode\Day8.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\eddie\Documents\AdventOfCode\AdventOfCode\AdventOfCode\Day8.cpp(17,56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\eddie\Documents\AdventOfCode\AdventOfCode\AdventOfCode\Day8.cpp(69,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\eddie\Documents\AdventOfCode\AdventOfCode\AdventOfCode\Day8.cpp(198,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AdventOfCode.vcxproj -> C:\Users\eddie\Documents\AdventOfCode\AdventOfCode\x64\Debug\AdventOfCode.exe
