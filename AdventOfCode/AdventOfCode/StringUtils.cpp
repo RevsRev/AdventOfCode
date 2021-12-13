@@ -27,6 +27,28 @@ std::vector<std::string>* parseDelimitedStringToVector(std::string str, char del
 	return retval;
 }
 
+std::vector<int>* parseDelimitedStringToIntVector(std::string str, char delimiter)
+{
+	std::vector<std::string>* vStrings = parseDelimitedStringToVector(str, delimiter);
+	std::vector<int>* retval = new std::vector<int>();
+	for (int i = 0; i < vStrings->size(); i++)
+	{
+		retval->push_back(std::stoi(vStrings->at(i)));
+	}
+	return retval;
+}
+
+std::vector<int>* parseStringToOneDigitInts(std::string str)
+{
+	std::vector<int>* retval = new std::vector<int>();
+
+	for (int i = 0; i < str.length(); i++)
+	{
+		retval->push_back(std::stoi(str.substr(i, 1)));
+	}
+	return retval;
+}
+
 std::vector<char>* getFromFirstWhereNotInSecond(std::string first, std::string second)
 {
 	std::vector<char>* retval = new std::vector<char>();
